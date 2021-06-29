@@ -1,7 +1,73 @@
-<!DOCTYPE html>
-<html>
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+--><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/pportfolio.css">
+    <title>Personal Portfolio</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="pageWrapper parallax">
+        <div class="navBar" id="navbar">
+            <div class="navLogo"><img id="logo" src="https://github.com/JasonJF/Responsive-Web-Design/blob/master/Personal%20Portfolio/images/love2code.png?raw=true"></div>
+            <div class="navLinks">
+                <a id="welcome" href="#welcome-section">Welcome</a>
+                <a id="projects" href="#projects1">Projects</a>
+                <a id="Contact" href="#contact">Contact</a>
+            </div>
+        </div>
+        <div id="welcome-section" class="upperPage wrapper">
+           <!-- <div class="imageSection"><img id="typingBoy" src="images/blue_boy_typing_nothought.gif"></div>-->
+           <div id="headWrapper"><h1 class="typing-demo myHeadings">Hi, my name is Jason.</h1></div>
+           
+                <!-- <div id="welcome-section" class="aboutSection wrapper"></div> -->
+                <div class="gridSection">
+                    <div class="infoBox" id="infoBox1"><p>EDUCATION</p><ul>
+                        <li>Btech Electrical Eng. (Computer Systems Stream)</li>
+                    </ul></div>
+                    <div class="infoBox" id="infoBox2"><p>KNOWLEDGE</p>
+                    <ul>
+                        <li>Electronics</li>
+                        <li>RF Circuits</li>
+                        <li>Python</li>
+                        <li>HTML/CSS/JavaScript</li>
+                    </ul>
+                    </div>
+                    <div class="infoBox" id="infoBox3"><p>INTERESTS</p>
+                    <ul>
+                        <li>Coding</li>
+                        <li>Web Technology</li>
+                        <li>App Development</li>
+                        <li>Automation</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        
+      <div class="window"></div>
+        
+        <div class="lowerPage lowerPageGrid"><div id="projects1"></div><h3 class="workText myHeadings">Here is some of my work</h3>
+        <div class="workGrid" id="projects">
+            <a href="https://codepen.io/jasonjf/pen/oNBarqN" class="project-tile workBox" id="job1"><img class="workImg" src="https://github.com/JasonJF/Responsive-Web-Design/blob/master/Personal%20Portfolio/images/product_sml.png?raw=true"></a>
+            <a href="https://codepen.io/jasonjf/pen/xNEYVX" class="project-tile workBox" id="job2"><img class="workImg" src="https://github.com/JasonJF/Responsive-Web-Design/blob/master/Personal%20Portfolio/images/survey_sml.png?raw=true"></a>
+            <a href="https://codepen.io/jasonjf/pen/mgNQNR" class="project-tile workBox" id="job3"><img class="workImg" src="https://github.com/JasonJF/Responsive-Web-Design/blob/master/Personal%20Portfolio/images/tribute_sml.png?raw=true"></a>
+        </div>
+    </div>
+        <div class="contactWindow"><div class="contactText myHeadings" id="contact">Get in touch with me</div>
+        <div class="contactLogoContainer">
+            <img class="contactLogo" src="https://github.com/JasonJF/Responsive-Web-Design/blob/master/Personal%20Portfolio/images/gmail.png?raw=true">
+            <a href="https://github.com/JasonJF" id="profile-link" target="_blank"><img class="contactLogo" src="https://github.com/JasonJF/Responsive-Web-Design/blob/master/Personal%20Portfolio/images/github.png?raw=true"></a>
+        </div>
+        </div>
+    </div>
 </body>
 </html>
